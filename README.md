@@ -1,4 +1,5 @@
 **🚀 Aplikasi To-Do List Full-Stack**
+
 Sebuah aplikasi To-Do List full-stack yang sederhana namun tangguh, dibangun menggunakan React.js untuk frontend, Node.js (Express.js) untuk backend, dan MySQL (melalui XAMPP untuk pengembangan lokal) sebagai database. Proyek ini mendemonstrasikan konsep dasar pengembangan full-stack, termasuk pembuatan API, interaksi database, dan rendering sisi klien.
 
 
@@ -14,6 +15,7 @@ Sebuah aplikasi To-Do List full-stack yang sederhana namun tangguh, dibangun men
 - Autentikasi Pengguna (Opsional): Pendaftaran (register) dan Login pengguna untuk manajemen tugas yang dipersonalisasi.
 
 **🛠️ Teknologi yang Digunakan**
+
 **Frontend**
 React.js: Library JavaScript untuk membangun antarmuka pengguna yang interaktif.
 Vite: Tooling frontend generasi selanjutnya untuk pengembangan yang cepat.
