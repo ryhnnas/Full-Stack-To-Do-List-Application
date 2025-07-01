@@ -17,23 +17,20 @@ Sebuah aplikasi To-Do List full-stack yang sederhana namun tangguh, dibangun men
 **🛠️ Teknologi yang Digunakan**
 
 **Frontend**
-
-React.js: Library JavaScript untuk membangun antarmuka pengguna yang interaktif.
-Vite: Tooling frontend generasi selanjutnya untuk pengembangan yang cepat.
-Tailwind CSS: Framework CSS utility-first untuk styling yang cepat dan kustom.
-Axios: Klien HTTP berbasis Promise untuk membuat permintaan ke API backend.
+- React.js: Library JavaScript untuk membangun antarmuka pengguna yang interaktif.
+- Vite: Tooling frontend generasi selanjutnya untuk pengembangan yang cepat.
+- Tailwind CSS: Framework CSS utility-first untuk styling yang cepat dan kustom.
+- Axios: Klien HTTP berbasis Promise untuk membuat permintaan ke API backend.
 
 **Backend**
-
-Node.js: Lingkungan runtime JavaScript.
-Express.js: Framework web minimalis dan fleksibel untuk Node.js.
-MySQL2 (Node.js Driver): Untuk berinteraksi dengan database MySQL.
-dotenv: Untuk mengelola variabel lingkungan.
-cors: Middleware Express.js untuk mengizinkan permintaan lintas domain (CORS).
-bcryptjs (Opsional): Untuk hashing password pengguna.
-jsonwebtoken (Opsional): Untuk implementasi JSON Web Tokens (JWT) dalam autentikasi.
+- Node.js: Lingkungan runtime JavaScript.
+- Express.js: Framework web minimalis dan fleksibel untuk Node.js.
+- MySQL2 (Node.js Driver): Untuk berinteraksi dengan database MySQL.
+- dotenv: Untuk mengelola variabel lingkungan.
+- cors: Middleware Express.js untuk mengizinkan permintaan lintas domain (CORS).
+- bcryptjs: Untuk hashing password pengguna.
+- jsonwebtoken: Untuk implementasi JSON Web Tokens (JWT) dalam autentikasi.
 
 **Database**
-
-MySQL / MariaDB: Sistem manajemen database relasional.
-XAMPP: Lingkungan pengembangan lokal yang menyediakan Apache, MySQL/MariaDB, PHP, dan Perl.
+- MySQL / MariaDB: Sistem manajemen database relasional.
+- XAMPP: Lingkungan pengembangan lokal yang menyediakan Apache, MySQL/MariaDB, PHP, dan Perl.
