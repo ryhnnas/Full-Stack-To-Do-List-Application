@@ -62,6 +62,7 @@ Pastikan Anda memiliki hal-hal berikut terinstal di sistem Anda:
 # 4. Klik pada database todo_app di sidebar.
 # 5. Pergi ke tab SQL dan jalankan query berikut untuk membuat tabel tasks:
 
+```
 CREATE TABLE tasks (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
@@ -70,17 +71,4 @@ CREATE TABLE tasks (
     createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
     userId INT
 );
-
-# 6. Jika Anda mengimplementasikan autentikasi, jalankan juga query berikut untuk tabel users dan tambahkan foreign key ke tabel tasks:
-
-CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    passwordHash VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE
-);
-
-ALTER TABLE tasks
-ADD CONSTRAINT fk_user
-FOREIGN KEY (userId) REFERENCES users(id)
-ON DELETE CASCADE;
+```
