@@ -1,0 +1,14 @@
+/* todo-frontend/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kamu bisa menambahkan CSS kustom di bawah ini jika diperlukan */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Tambahkan warna latar belakang global untuk App.jsx */
+  background-color: #f3f4f6; /* Warna abu-abu terang, agar sama dengan bg-gray-100 di App.jsx */
+}
