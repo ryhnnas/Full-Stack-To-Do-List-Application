@@ -56,11 +56,11 @@ Pastikan Anda memiliki hal-hal berikut terinstal di sistem Anda:
 * **Git** (Opsional, tapi direkomendasikan): [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ## ⚙️ Penyiapan Database (MySQL via XAMPP)
-# 1. Mulai Apache dan MySQL dari XAMPP Control Panel.
-# 2. Buka browser dan navigasikan ke http://localhost/phpmyadmin.
-# 3. Buat database baru bernama todo_app.
-# 4. Klik pada database todo_app di sidebar.
-# 5. Pergi ke tab SQL dan jalankan query berikut untuk membuat tabel tasks:
+* Mulai Apache dan MySQL dari XAMPP Control Panel.
+* Buka browser dan navigasikan ke http://localhost/phpmyadmin.
+* Buat database baru bernama todo_app.
+* Klik pada database todo_app di sidebar.
+* Pergi ke tab SQL dan jalankan query berikut untuk membuat tabel tasks:
 
 ```
 CREATE TABLE tasks (
