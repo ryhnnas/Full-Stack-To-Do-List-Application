@@ -55,14 +55,6 @@ Pastikan Anda memiliki hal-hal berikut terinstal di sistem Anda:
 * **XAMPP:** [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
 * **Git** (Opsional, tapi direkomendasikan): [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-### 1. Klon Repositori (Opsional)
-
-Jika Anda belum memiliki proyek ini di lokal, _klon_ repositori dari GitHub:
-
-```bash
-git clone [https://github.com/ryhnnas/Full-Stack-To-Do-List-Application.git](https://github.com/ryhnnas/Full-Stack-To-Do-List-Application.git)
-cd Full-Stack-To-Do-List-Application
-
 ## ⚙️ Penyiapan Database (MySQL via XAMPP)
 # 1. Mulai Apache dan MySQL dari XAMPP Control Panel.
 # 2. Buka browser dan navigasikan ke http://localhost/phpmyadmin.
